@@ -1,0 +1,77 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyMOz33r3TY/ucf7tIHD9Tua",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/fgoldenboy19/Mineria-de-Datos/blob/main/Pizzeria\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 7,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 106
+        },
+        "id": "6zbNzmBms7xu",
+        "outputId": "59d42880-affb-4f98-ab21-0cd60018066f"
+      },
+      "outputs": [
+        {
+          "output_type": "error",
+          "ename": "SyntaxError",
+          "evalue": "invalid syntax (2864064498.py, line 17)",
+          "traceback": [
+            "\u001b[0;36m  File \u001b[0;32m\"/tmp/ipykernel_886/2864064498.py\"\u001b[0;36m, line \u001b[0;32m17\u001b[0m\n\u001b[0;31m    Bienvenido. Escoge una opcion:Vegetariana (v) No vegetariana (nv)nv\u001b[0m\n\u001b[0m                       ^\u001b[0m\n\u001b[0;31mSyntaxError\u001b[0m\u001b[0;31m:\u001b[0m invalid syntax\n"
+          ]
+        }
+      ],
+      "source": [
+        "EleccionTipoPizza = input(\"Bienvenido. Escoge una opcion:Vegetariana (v) No vegetariana (nv)\")\n",
+        "if eleccionTipoPizza == \"v\":\n",
+        "  eleccionIngrediente = input(\"Escoge una opcion: Pimiento (p) Champiñon (c)\")\n",
+        "  if eleccionIngrediente == \"p\":\n",
+        "    print(\"Escogiste una pizza vegetariana con pimiento, mozzarella y tomate \")\n",
+        "  elif eleccionIngrediente == \"t\":\n",
+        "    print(\"Escogiste una pizza vegetariana con Champiñon, mozzarella y tomate.\")\n",
+        "elif eleccionTipoPizza ==\"nv\":\n",
+        "  eleccionIngredientes = input (\"Escoge una opcion: Peperoni (p) Jamon (j) Salmon (s)\")\n",
+        "  if eleccionIngrediente == \"p\":\n",
+        "        print(\"Escogiste una pizza no vegetariana con Peperoni, mozzarella y tomate.\")\n",
+        "  elif eleccionIngrediente == \"j\":\n",
+        "        print(\"Escogiste una pizza no vegetariana con Jamón, mozzarella y tomate.\")\n",
+        "  elif eleccionIngrediente == \"s\":\n",
+        "        print(\"Escogiste una pizza no vegetariana con Salmón, mozzarella y tomate.\")\n",
+        "\n",
+        "Bienvenido. Escoge una opcion:Vegetariana (v) No vegetariana (nv)nv\n",
+        "Escoge una opcion: Peperoni (p) Jamon (j) Salmon (s)s\n",
+        "\n",
+        "eleccionTipoPizza = \"0\"\n",
+        "while eleccionTipoPizza != \"s\":\n",
+        "  eleccionTipoPizza = input (\"Bienvenido. Escoge una opcion: Vegetariana (v) No vegetariana (nv) salir (s) \")\n",
+        "  print(\"Bloque repetido\")"
+      ]
+    }
+  ]
+}
