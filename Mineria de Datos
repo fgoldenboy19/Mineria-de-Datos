@@ -1,0 +1,95 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyPJ3pbaKA2VfOAjhTOame3E",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/fgoldenboy19/Mineria-de-Datos/blob/main/Mineria%20de%20Datos\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#Ejercicio 1\n",
+        "hermanos=2; #int Alliaon\n",
+        "print(\"yo tengo\",hermanos,\"hermanos.\")\n",
+        "\n",
+        "estatura = 1.85 #float\n",
+        "print(\"mi estatura es de\", estatura,\"m.\")\n",
+        "\n",
+        "\n",
+        "EsMayor = True #boolean\n",
+        "print(\"¿La persona es mayor de edad?\",EsMayor)\n",
+        "\n",
+        "domicilio = \"Av. Ing. Militares y Av. Mexico Tacuba\" #string\n",
+        "print(\"La UTC Toreo se encuentra en\",domicilio)\n",
+        "\n",
+        "\n",
+        "#EJERCICIO 2\n",
+        "resultado = ((4 + 5) / (6 * 4)) ** 2\n",
+        "\n",
+        "print(\"El resultado es:\", resultado)\n",
+        "\n",
+        "#EJERCICIO 3\n",
+        "dividendo = int(input(\"Ingresa el dividendo: \"))\n",
+        "divisor = int(input(\"Ingresa el divisor:\"))\n",
+        "cociente = dividendo // divisor\n",
+        "residuo = dividendo % divisor\n",
+        "print(f\"{dividendo} entre {divisor} da un cociente {cociente} y un residuo {residuo}\")\n",
+        "\n",
+        "#EJERCICIO 4\n",
+        "edad = 61\n",
+        "if edad > 17 and edad < 60:\n",
+        "  print(\"Puede pasar\")\n",
+        "elif edad > 59:\n",
+        "  print(\"Puede pasar y tiene descuento \")\n",
+        "else:\n",
+        "  print(\" No puede pasar\")\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "zX0R-9FgiKl3",
+        "outputId": "cce2d1b6-9b91-4c74-cc5d-3365186f5586"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "yo tengo 2 hermanos.\n",
+            "mi estatura es de 1.85 m.\n",
+            "¿La persona es mayor de edad? True\n",
+            "La UTC Toreo se encuentra en Av. Ing. Militares y Av. Mexico Tacuba\n",
+            "El resultado es: 0.140625\n",
+            "Ingresa el dividendo: 12\n",
+            "Ingresa el divisor:3\n",
+            "12 entre 3 da un cociente 4 y un residuo 0\n",
+            "Puede pasar y tiene descuento \n"
+          ]
+        }
+      ]
+    }
+  ]
+}
