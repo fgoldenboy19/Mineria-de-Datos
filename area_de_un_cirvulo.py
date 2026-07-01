@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 """Area de un cirvulo
 
 #AREA DE UN CIRCULO
